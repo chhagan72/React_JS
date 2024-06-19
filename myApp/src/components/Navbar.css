@@ -1,0 +1,14 @@
+nav{
+    background-color: cyan;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+}
