@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
+import Post from './components/Post'
 import { useSelector, useDispatch } from 'react-redux'
 import { increment, decrement } from './redux/counter/counterSlice'
 
@@ -18,6 +19,7 @@ function App() {
         <p>Count: {count}</p>
         <button className='btn btn danger' onClick={() => dispatch(increment())}>+</button>
       </div>
+      <Post/>
     </>
   )
 }

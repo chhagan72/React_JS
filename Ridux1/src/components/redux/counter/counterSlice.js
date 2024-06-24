@@ -9,9 +9,6 @@ export const counterSlice = createSlice({
     increment: state => {
       state.value += 1
     },
-    increment: state => {
-      state.value += 1
-    },
     decrement: state => {
       state.value -= 1
     },
